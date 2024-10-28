@@ -2109,6 +2109,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2539,6 +2678,128 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -4100,12 +4361,6 @@
 		(uuid "0c2d565c-9a0d-4a85-bcea-aa6705950ffc")
 	)
 	(junction
-		(at 250.19 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a28e6d5-b078-4361-8b43-7bb9072826d4")
-	)
-	(junction
 		(at 250.19 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4136,7 +4391,7 @@
 		(uuid "4eefc3d8-2903-4784-aa6c-c11061866054")
 	)
 	(junction
-		(at 148.59 180.34)
+		(at 148.59 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5796bf38-dee4-4fdd-b59c-a0e97f72018f")
@@ -4184,7 +4439,7 @@
 		(uuid "bf7d219a-ac3d-41bf-8c35-edd0c113ec74")
 	)
 	(junction
-		(at 144.78 182.88)
+		(at 144.78 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0bb715f-08f9-4bad-95a6-8d83017be1c5")
@@ -4206,6 +4461,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3735f53-7cad-4ea6-80a4-430b0158b4b1")
+	)
+	(junction
+		(at 158.75 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e34aac45-a930-4231-8539-6e9de91f71f7")
 	)
 	(junction
 		(at 59.69 180.34)
@@ -4281,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 177.8) (xy 152.4 177.8)
+			(xy 144.78 172.72) (xy 160.02 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4351,16 +4612,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 185.42) (xy 152.4 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229e792b-ac9f-4f0b-b859-faeacefc01ae")
-	)
-	(wire
-		(pts
 			(xy 101.6 181.61) (xy 101.6 182.88)
 		)
 		(stroke
@@ -4421,6 +4672,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 170.18) (xy 152.4 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b411cf0-df28-47ba-a823-1722a2fd4fb0")
+	)
+	(wire
+		(pts
 			(xy 208.28 149.86) (xy 210.82 149.86)
 		)
 		(stroke
@@ -4471,6 +4732,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 181.61) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b85a2cc-fa07-4afc-b181-34b419f81723")
+	)
+	(wire
+		(pts
 			(xy 77.47 57.15) (xy 90.17 57.15)
 		)
 		(stroke
@@ -4501,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 177.8) (xy 144.78 182.88)
+			(xy 144.78 172.72) (xy 144.78 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4531,7 +4802,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 180.34) (xy 148.59 185.42)
+			(xy 148.59 175.26) (xy 148.59 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4561,7 +4832,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 180.34) (xy 152.4 180.34)
+			(xy 148.59 175.26) (xy 160.02 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4598,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "958b220e-61e3-4681-8ab7-06a8a41cfd42")
+	)
+	(wire
+		(pts
+			(xy 153.67 180.34) (xy 158.75 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975e6ec5-16ae-4f4f-8ac6-6061b8771532")
 	)
 	(wire
 		(pts
@@ -4701,7 +4982,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 182.88) (xy 152.4 182.88)
+			(xy 144.78 177.8) (xy 160.02 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4751,16 +5032,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 105.41) (xy 250.19 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b27017-0d56-4426-9f13-77b48a1864fe")
-	)
-	(wire
-		(pts
 			(xy 250.19 59.69) (xy 250.19 62.23)
 		)
 		(stroke
@@ -4798,6 +5069,16 @@
 			(type default)
 		)
 		(uuid "d16a2c8e-1eb3-4ecf-9372-33c11a3fccbf")
+	)
+	(wire
+		(pts
+			(xy 158.75 180.34) (xy 160.02 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c07bfe-1441-4696-bc4a-7619f81753d9")
 	)
 	(wire
 		(pts
@@ -4888,16 +5169,6 @@
 			(type default)
 		)
 		(uuid "f65134f4-a695-4880-bb9f-626bc98a4b71")
-	)
-	(wire
-		(pts
-			(xy 245.11 105.41) (xy 250.19 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77a06ae-333b-4769-b986-a14cebc87f75")
 	)
 	(wire
 		(pts
@@ -4995,6 +5266,39 @@
 			(justify left top)
 		)
 		(uuid "67b2668f-a716-488c-87c2-11df2ed3ac66")
+	)
+	(label "7.5V"
+		(at 156.21 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a68bc33-4638-4a21-9413-a47f826fa3e8")
+	)
+	(label "{slash}RESET"
+		(at 153.67 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e74d6ddf-e39e-4c00-b774-63c9184d62a3")
+	)
+	(label "3.5V"
+		(at 156.21 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6c85798-4826-4bf5-97dc-b2f212030f21")
 	)
 	(global_label "+5V_SB"
 		(shape input)
@@ -5386,73 +5690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 245.11 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c16c899-e201-42f8-90c2-262756d2474f")
-		(property "Reference" "#PWR027"
-			(at 245.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 109.5431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c589fabe-bcb5-49d9-979a-096b7f55bedc")
-		)
-		(instances
-			(project "amiga-2000-atx-adapter-pcb"
-				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 87.63 132.08 0)
 		(mirror y)
@@ -5815,91 +6052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 255.27 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26580923-d068-4bdf-b053-1d0fe4157de6")
-		(property "Reference" "J24"
-			(at 257.302 105.4678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.5\" PWR"
-			(at 257.302 107.8921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TE-Connectivity-171825-4_C210162.pdf"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C210162"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "541fe1b1-ae56-4ce4-b25a-ecf279a2cd56")
-		)
-		(pin "2"
-			(uuid "b1d089f6-4f0a-407c-88e4-20f11d8967ad")
-		)
-		(pin "1"
-			(uuid "6f608bfa-1e80-4650-a7f0-675f8d732453")
-		)
-		(pin "3"
-			(uuid "a5a81e9a-42db-4631-8fe6-1ac58723c3c4")
-		)
-		(instances
-			(project "amiga-2000-atx-adapter-pcb"
-				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
-					(reference "J24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM7808_TO220")
 		(at 114.3 175.26 0)
 		(unit 1)
@@ -5982,7 +6134,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 182.88 0)
+		(at 144.78 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5990,7 +6142,7 @@
 		(dnp no)
 		(uuid "2a9ff099-0d16-499e-9c3f-fdb3140b51db")
 		(property "Reference" "#PWR052"
-			(at 144.78 189.23 0)
+			(at 144.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 141.478 184.15 0)
+			(at 141.478 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 182.88 0)
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +6168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 182.88 0)
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +6177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 182.88 0)
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,72 +6325,6 @@
 			(project "amiga-2000-atx-adapter-pcb"
 				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 250.19 110.49 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fc4d3d5-c144-429f-ad32-075281877784")
-		(property "Reference" "#PWR029"
-			(at 250.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 250.19 114.6231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 250.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "279417ad-7630-46f1-a704-b198ddbeb7b9")
-		)
-		(instances
-			(project "amiga-2000-atx-adapter-pcb"
-				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7210,6 +7296,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 151.13 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6089a750-86fe-40ad-b3f1-24cdb9cea98c")
+		(property "Reference" "R18"
+			(at 151.13 182.7967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 151.13 185.221 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f622797d-3b8e-45ad-a221-9a0e99550add")
+		)
+		(pin "2"
+			(uuid "efd4e3e7-b405-4cfa-8c62-d36cca0f59f8")
+		)
+		(instances
+			(project ""
+				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-12V")
 		(at 81.28 64.77 0)
 		(unit 1)
@@ -7575,7 +7729,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 152.4 175.26 0)
+		(at 152.4 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7584,7 +7738,7 @@
 		(fields_autoplaced yes)
 		(uuid "65bf08e5-fa80-424c-b233-43e5e61b73e3")
 		(property "Reference" "#PWR054"
-			(at 152.4 179.07 0)
+			(at 152.4 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7747,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 152.4 171.1269 0)
+			(at 152.4 166.0469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 175.26 0)
+			(at 152.4 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +7764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 175.26 0)
+			(at 152.4 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 152.4 175.26 0)
+			(at 152.4 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,6 +7855,141 @@
 			(project ""
 				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6772c01a-2691-4bf7-83a6-44ab78de7880")
+		(property "Reference" "#PWR027"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.448 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c35decf7-6d1f-47f7-9b8f-413f6be66180")
+		)
+		(instances
+			(project "amiga-2000-atx-adapter-pcb"
+				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 158.75 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5bbf56-fd6a-4ec1-9217-1a73c8556e89")
+		(property "Reference" "J19"
+			(at 160.782 185.4778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET"
+			(at 160.782 187.9021 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 158.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6be5da2-a211-4d35-9f5a-717ea48013c1")
+		)
+		(pin "1"
+			(uuid "313b6c78-c767-4188-9ba3-3c0eaa20e80f")
+		)
+		(instances
+			(project ""
+				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -7905,7 +8194,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 148.59 180.34 0)
+		(at 148.59 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7914,7 +8203,7 @@
 		(fields_autoplaced yes)
 		(uuid "7acc9856-90c7-4694-99e0-6f5d81fedf88")
 		(property "Reference" "#PWR035"
-			(at 148.59 184.15 0)
+			(at 148.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +8212,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 148.59 176.2069 0)
+			(at 148.59 171.1269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 180.34 0)
+			(at 148.59 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +8229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 180.34 0)
+			(at 148.59 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +8238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 180.34 0)
+			(at 148.59 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,73 +8615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 250.19 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8af411d6-d69b-476b-9e69-4c0a6e8a03e8")
-		(property "Reference" "#PWR028"
-			(at 250.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 250.19 98.7369 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 250.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99917c32-0056-4839-b026-46eabd9f1eb5")
-		)
-		(instances
-			(project "amiga-2000-atx-adapter-pcb"
-				(path "/09c3e8db-5550-4e7a-975e-9787be2f58d5"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 143.51 0)
 		(mirror y)
@@ -8594,7 +8816,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 157.48 180.34 0)
+		(at 165.1 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8603,7 +8825,7 @@
 		(fields_autoplaced yes)
 		(uuid "99813629-808c-49cb-839b-cc95d0afa3f2")
 		(property "Reference" "J18"
-			(at 159.512 179.1278 0)
+			(at 167.132 174.0478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8834,7 @@
 			)
 		)
 		(property "Value" "PU-18"
-			(at 159.512 181.5521 0)
+			(at 167.132 176.4721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8843,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
-			(at 157.48 180.34 0)
+			(at 165.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8852,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eEH.pdf"
-			(at 157.48 180.34 0)
+			(at 165.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8861,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 180.34 0)
+			(at 165.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8870,7 @@
 			)
 		)
 		(property "LCSC" "C265084"
-			(at 157.48 180.34 0)
+			(at 165.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
